@@ -79,15 +79,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const nivelMap = {
             'iniciante': 'Iniciante',
-            'intermediario': 'Intermediário',
-            'avancado': 'Avançado',
-            'profissional': 'Profissional'
+            'pré-intermediario': 'Pré-intermediario',
+            'intermediario': 'Intermediario',
+            'avançado': 'Avançado'
         };
 
         const horarioMap = {
-            'manha': 'Manhã (6h-12h)',
-            'tarde': 'Tarde (12h-18h)',
-            'noite': 'Noite (18h-22h)'
+            'manha': 'Manhã (5h-7h)',
+            'tarde': 'Tarde (18h-21h)'
         };
 
         const nivelTexto = nivelMap[nivelSelect] || nivelSelect;
