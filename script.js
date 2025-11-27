@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         'Melhor horário: ' + horarioTexto;
 
         const mensagemCodificada = encodeURIComponent(mensagem);
-        const urlWhatsapp = 'https://wa.me/5581999543750?text=' + mensagemCodificada;
+        const urlWhatsapp = 'https://wa.me/5581992278289?text=' + mensagemCodificada;
 
         window.open(urlWhatsapp, '_blank');
 
